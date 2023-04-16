@@ -9,7 +9,3 @@ import com.xfactor.openlibrary.domain.Loan;
 public interface LoanRepository extends JpaRepository<Loan, Long>{
     List<Loan> findByCheckoutDate(String checkoutDate);
 }
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
